@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Вход на сервер</h1>
+        <input type="text" id="username">
+        <div class="error"></div>
+        <div class="variant">
+            <input type="radio" name="users" id="player" value="player-v">
+            <label for="player">Игрок</label>
+          </div>
+          <div class="variant">
+            <input type="radio" name="users" id="moderator" value="moderator-v">
+            <label for="moderator">Модератор</label>
+          </div>
+          <div class="variant">
+            <input type="radio" name="users" id="supervisor" value="supervisor-v">
+            <label for="supervisor">Наблюдатель</label>
+          </div>
+          <div class="error-end"></div>
+          <button class="send-btn">Вход</button>
+          <div class="finish"></div>
+    </div>
+   
+    
+    <script src="./main.js"></script>
+</body>
+</html>

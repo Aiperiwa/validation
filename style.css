@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 300px;
+    height: 341px;
+
+    /* box-shadow: 0px 4px 40px rgba(116, 124, 153, 0.74);
+    border-radius: 20px; */
+
+    background: linear-gradient(180deg, #000000 0%, #2E54B6 100%);
+
+    margin: 30px auto;
+}
+
+h1 {
+    width: 169px;
+    height: 24px;
+
+    font-family: 'Montserrat', sans-serif;    
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+#username {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+
+    width: 200px;
+    height: 37px;
+
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+.variant {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 14px;
+    margin-left: 50px;
+    width: 108px;
+    height: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    
+}
+
+
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 22px;
+    gap: 10px;
+
+    width: 200px;
+    height: 37px;
+
+    background: #FFD600;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 12px;
+    border: none;
+}
+
+.error {
+    left: 0px;
+    top: 88px;
+
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FA6F6F;
+    margin-bottom: 17px;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+.error-end {
+    left: 0px;
+    top: 88px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FA6F6F;
+    margin-left: 50px;
+    
+
+}
+
+.finish {
+    display: flex;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 10px;
+    color: #72FA6F;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+
